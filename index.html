@@ -29,7 +29,7 @@
 <body class="font-lato">
     <header class="">
         <nav class="max-w-6xl m-auto my-10">
-            <div class="navbar lg:bg-[#F85559] items-center px-7 lg:rounded-full">
+            <div class="navbar lg:bg-[#F85559] items-center lg:px-7 lg:rounded-full">
                 <div class="navbar-start">
                     <a class=" text-xl lg:hidden">
                         <div class="flex items-center gap-4">
@@ -57,11 +57,9 @@
                 <div class="navbar-end items-center">
                     <div class="dropdown flex">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none">
+                                <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
                         </label>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -190,18 +188,18 @@
         </div>
     </header>
 
-    <!-- countdown section start here -->
     <main class="max-w-6xl m-auto">
 
+        <!-- countdown section start here -->
         <section class="mt-40">
-            <div class="flex justify-between items-center">
+            <div class="flex flex-col lg:flex-row justify-between text-center lg:text-left gap-8">
                 <div class="flex-1 space-y-6">
-                    <h1 class="text-[#121212] text-5xl font-extrabold">Deal of the day</h1>
+                    <h1 class="text-[#121212]  text-5xl font-extrabold">Deal of the day</h1>
                     <p class="text-[#121212]">Contrary to popular belief, is not simply random text. It has roots in a
                         piece of classical Latin
                         literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="flex justify-end items-start gap-4 flex-1">
+                <div class="flex justify-center lg:justify-end items-start gap-4 flex-1">
                     <div class="space-y-4">
                         <h1 class="text-[#121212] text-center text-5xl font-extrabold ">29</h1>
                         <p class="text-center text-[#121212]">Days</p>
@@ -225,10 +223,10 @@
             </div>
 
             <!-- Fruits cards -->
-            <div class="flex justify-between items-center gap-4 mt-8">
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-4 mt-8">
 
                 <!-- Fruits cards 1 -->
-                <div class="card w-80 bg-base-100 shadow-xl">
+                <div class="card w-4/5 lg:w-80 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -315,7 +313,7 @@
                     </div>
                 </div>
                 <!-- Fruits cards 2 -->
-                <div class="card w-80 bg-base-100 shadow-xl">
+                <div class="card w-4/5 lg:w-80 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -402,7 +400,7 @@
                     </div>
                 </div>
                 <!-- Fruits cards 3 -->
-                <div class="card w-80 bg-base-100 shadow-xl">
+                <div class="card w-4/5 lg:w-80 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -489,7 +487,7 @@
                     </div>
                 </div>
                 <!-- Fruits cards 4 -->
-                <div class="card w-80 bg-base-100 shadow-xl">
+                <div class="card w-4/5 lg:w-80 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -594,7 +592,7 @@
                             has roots in a piece
                             of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                     </div>
-                    <div class="flex justify-around">
+                    <div class="flex flex-col lg:flex-row justify-around">
                         <div class="card">
                             <figure class="px-10 pt-10">
                                 <img src="./images/member1.png" class="" />
@@ -894,7 +892,7 @@
                     roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
 
-            <div class="grid grid-cols-3 gap-5 mt-12">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-12">
                 <div class="space-y-6">
                     <div class="flex flex-row">
                         <div class="my-2 mr-5">
@@ -952,7 +950,7 @@
                     </div>
                 </div>
                 <!-- div 2 -->
-                <div>
+                <div class="flex justify-center order-first lg:order-none">
 <img src="./images/whychoose1.png" alt="" class="">
                 </div>
                 <!-- div 3 -->
